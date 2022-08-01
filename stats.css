@@ -1,0 +1,62 @@
+/* Stats section Starts here */
+.sec-02 {
+  color: #fff;
+  /* border: 2px solid red; */
+  margin-top: 18vh;
+  position: relative;
+}
+#book-girl {
+  position: absolute;
+  /* border: 2px solid red; */
+  width: 16vw;
+  top: -14vh;
+  right: 45%;
+}
+.sec-02 .stats {
+  padding: 5vw;
+  background: linear-gradient(to right, rgb(20, 0, 184), rgb(238, 0, 239));
+}
+.sec-02 .stats input {
+  width: 50vw;
+  height: 8vh;
+  border-radius: 25px;
+  border: none;
+}
+.sec-02 .stats .btn {
+  background-color: rgb(20, 0, 184);
+  color: #fff;
+  border-radius: 25px;
+  border: none;
+}
+.input-div {
+  /* border: 2px solid red; */
+  width: fit-content;
+  margin: 5vh auto;
+}
+.heading {
+  font-size: 4vw;
+  text-align: center;
+}
+.sec-02 table {
+  /* border: 2px solid red; */
+  padding: 1vh;
+  margin: 10vh auto;
+  width: 90%;
+  color: #fff;
+}
+.sec-02 table tr {
+  /* border: 2px solid red; */
+  padding: 1vh;
+}
+.sec-02 table th {
+  /* border: 2px solid red; */
+  padding: 1vh;
+  font-size: 4.5vw;
+}
+.sec-02 table td {
+  /* border: 2px solid red; */
+  padding: 1vh;
+  font-size: 2vw;
+  text-align: center;
+}
+/* Stats section Ends here */
