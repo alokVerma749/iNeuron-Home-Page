@@ -450,7 +450,7 @@
   display: none;
   width: 14vw;
   height: 65px;
-  background-color: #fff;
+  background-color: #ffffffd3;
   color: #4d4d4d;
 }
 .nav__menu-items:hover {
@@ -462,7 +462,7 @@
 }
 .nav__menu:nth-child(1) h4::after {
   content: "";
-  border: solid #ffffff;
+  border: solid #ffffffd3;
   border-width: 0 2px 2px 0;
   display: inline-block;
   padding: 3px;
@@ -471,7 +471,7 @@
 }
 .nav__menu:last-child h4::after {
   content: "";
-  border: solid #ffffff;
+  border: solid #ffffffd3;
   border-width: 0 2px 2px 0;
   display: inline-block;
   padding: 3px;

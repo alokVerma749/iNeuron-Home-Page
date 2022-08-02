@@ -3,7 +3,6 @@
   height: 410px;
   width: 300px;
 }
-
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -64,9 +63,14 @@
 }
 .card__caption {
   position: absolute;
-  top: 50%;
+  top: 60%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
   z-index: 1;
-  padding: 0 20px;
+  padding: 0 10px;
   color: white;
   transform: translateY(-50%);
   text-align: center;
@@ -79,33 +83,27 @@
   }
 }
 .card__title {
-  display: -webkit-box;
   max-height: 85px;
   overflow: hidden;
-  font-family: "Playfair Display", serif;
-  font-size: 23px;
+  font-size: 25px;
   line-height: 28px;
   text-shadow: 0px 1px 5px black;
   text-overflow: ellipsis;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
+  text-align: center;
 }
 .card__snippet {
-  display: -webkit-box;
+  text-align: center;
   max-height: 150px;
   margin: 20px 0;
   overflow: hidden;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 20px;
   text-overflow: ellipsis;
   transition: 0.5s ease-in-out;
-  -webkit-line-clamp: 5;
-  -webkit-box-orient: vertical;
 }
 @media (min-width: 1024px) {
   .card__snippet {
-    margin: 60px 0;
+    margin: 60px auto;
   }
 }
 .card__button {
@@ -113,32 +111,37 @@
   padding: 10px 20px;
   color: white;
   border: 1px solid white;
-  font-family: "Roboto", sans-serif;
   font-size: 12px;
   text-transform: uppercase;
   text-decoration: none;
   transition: 0.3s;
+  margin: 0 auto;
 }
 .card__button:hover {
   color: black;
   background-color: white;
 }
-.disclaimer {
-  position: fixed;
-  bottom: 0;
-  left: 50%;
-  z-index: 2;
-  box-sizing: border-box;
-  width: 100%;
-  padding: 20px 10px;
-  background-color: white;
-  transform: translateX(-50%);
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  text-align: center;
-}
-.disclaimer__link {
-  color: #755d87;
-  text-decoration: none;
-}
 /* Tech avengers section cards ends here */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

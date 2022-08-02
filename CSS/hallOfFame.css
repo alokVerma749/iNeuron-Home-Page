@@ -10,9 +10,9 @@
   flex-wrap: wrap;
 }
 
-.hall-of-fame .swiper {
-  width: 950px;
-}
+/* .hall-of-fame .swiper {
+  width: 100%;
+} */
 
 .hall-of-fame .card {
   position: relative;
@@ -27,6 +27,7 @@
   position: absolute;
   height: 40%;
   width: 100%;
+  top: 0;
   background: #7d2ae8;
   border-radius: 20px 20px 0 0;
 }
@@ -137,26 +138,24 @@
   height: 7px;
   width: 26px;
   border-radius: 25px;
-  background: #7d2ae8;
+  background: #531d9a;
 }
 
 .swiper-button-next,
 .swiper-button-prev {
   opacity: 0.7;
-  color: #7d2ae8;
+  color: #531d9a;
   transition: all 0.3s ease;
 }
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
   opacity: 1;
-  color: #7d2ae8;
+  color: #531d9a;
 }
 @media (max-width: 1024px) {
   .hall-of-fame {
-    /* border: 2px solid red; */
     display: flex;
     flex-wrap: wrap-reverse;
-    /* justify-content: space-around; */
     flex-direction: column;
   }
 }
