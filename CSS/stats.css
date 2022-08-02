@@ -1,6 +1,7 @@
 /* Stats section Starts here */
 .sec-02 {
   color: #fff;
+  width: 100%;
   /* border: 2px solid red; */
   margin-top: 18vh;
   position: relative;
@@ -16,11 +17,15 @@
   padding: 5vw;
   background: linear-gradient(to right, rgb(20, 0, 184), rgb(238, 0, 239));
 }
+.sec-02 .heading {
+  margin-top: 5vh;
+}
 .sec-02 .stats input {
-  width: 50vw;
-  height: 8vh;
-  border-radius: 25px;
+  width: 40vw;
+  height: 4vw;
+  border-radius: 100px;
   border: none;
+  margin-right: 2vw;
 }
 .sec-02 .stats .btn {
   background-color: rgb(20, 0, 184);
@@ -32,10 +37,6 @@
   /* border: 2px solid red; */
   width: fit-content;
   margin: 5vh auto;
-}
-.heading {
-  font-size: 4vw;
-  text-align: center;
 }
 .sec-02 table {
   /* border: 2px solid red; */
@@ -58,5 +59,22 @@
   padding: 1vh;
   font-size: 2vw;
   text-align: center;
+}
+.sec-02 .input-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 10vh;
+}
+@media (max-width: 1024px) {
+  .sec-02 .input-div {
+    height: 20vh;
+    flex-direction: column;
+  }
+  .sec-02 .input-div button {
+    margin: 0 auto;
+    height: 5vw;
+    width: 15vw;
+  }
 }
 /* Stats section Ends here */

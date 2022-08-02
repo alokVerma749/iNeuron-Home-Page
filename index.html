@@ -12,32 +12,67 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 
     <!-- ===== CSS ===== -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./hallOfFame.css">
-    <link rel="stylesheet" href="./techAvengers.css">
-    <link rel="stylesheet" href="./stats.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/hallOfFame.css">
+    <link rel="stylesheet" href="./CSS/techAvengers.css">
+    <link rel="stylesheet" href="./CSS/stats.css">
+    <link rel="stylesheet" href="./CSS/nav.css">
+    <link rel="stylesheet" href="./CSS/sideNav.css">
 </head>
 <body>
     <!-- Hero section starts here -->
     <div class="main sec sec-01">
         <header>
+            <span class="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
             <div class="logo">
                 <img src="./images/ineuron-logo-white.png" alt="iNeuron logo">
             </div>
-            <nav>
-                <ul class="nav-list">
-                    <li class="nav-list-item">Courses</li>
-                    <li class="nav-list-item">One Neuron</li>
-                    <li class="nav-list-item">Job Portal</li>
-                    <li class="nav-list-item">Internship Portal</li>
-                    <li class="nav-list-item">Become an affiliate</li>
-                    <li class="nav-list-item">Hall of fame</li>
-                    <li class="nav-list-item">Blog</li>
-                    <li class="nav-list-item">Company</li>
+            <div class="nav">
+                <ul class="nav__list">
+                    <li class="nav__menu">
+                        <h4>Courses</h4>
+                        <ul class="nav__menu-lists nav__menu--1-lists">
+                            <li class="nav__menu-items">Web Development</li>
+                            <li class="nav__menu-items">Big Data</li>
+                            <li class="nav__menu-items">Blockchain</li>
+                            <li class="nav__menu-items">Mobile Development</li>
+                            <li class="nav__menu-items">Programming</li>
+                        </ul>
+                    </li>
+                    <li class="nav__menu">One Neuron
+                    </li>
+                    <li class="nav__menu">Job Portal
+                    </li>
+                    <li class="nav__menu">Internship Portal
+                    </li>
+                    <li class="nav__menu">Hall Of Fame
+                    </li>
+                    <li class="nav__menu">Blog
+                    </li>
+                    <li class="nav__menu">
+                        <h4>Company</h4>
+                        <ul class="nav__menu-lists nav__menu--1-lists">
+                            <li class="nav__menu-items">About US</li>
+                            <li class="nav__menu-items">FAQs</li>
+                            <li class="nav__menu-items">Contact US</li>
+                            <li class="nav__menu-items">Job Assistant</li>
+                            <li class="nav__menu-items">Terms & Condition</li>
+                        </ul>
+                    </li>
                 </ul>
-            </nav>
+            </div>
         </header>
         <div class="hero">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">Courses</a>
+                <a href="#">One Neuron</a>
+                <a href="#">Job Portal</a>
+                <a href="#">Internship Portal</a>
+                <a href="#">Hall Of Fame</a>
+                <a href="#">Blog</a>
+                <a href="#">Company</a>
+            </div>
             <div class="text-container left">
                 <p>Learn from the best of industry</p>
                 <h1>Highest in quality, affordable in price</h1>
@@ -619,6 +654,7 @@
             },
         });
     </script>
+    <script src="./aside.js"></script>
 </body>
 </body>
 </html>
