@@ -11,7 +11,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/alokVerma749/iNeuron-Home-Page">
-    <img src="https://learncodeonline.in/mascot.png" alt="Logo" width="80">
+    <img src="https://github.com/alokVerma749/iNeuron-Home-Page/blob/master/images/ineuron-logo-white.png" alt="Logo" width="150">
   </a>
 
 <h3 align="center">iNeuron Home Page</h3>
@@ -31,9 +31,9 @@
     </li>
     <li><a href="#built-with">Built With</a></li>
     <li><a href="#live-project">Live Project</a></li>
-    <li><a href="#learnt">Learnt</a></li>
-    <li><a href="#recommended-articles">Recommended Articles</a></li>
-    <li><a href="#contact">About Me</a></li>
+    <li><a href="#screenshots">Screenshots</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#author">About Me</a></li>
 
   </ol>
 </details>
@@ -84,7 +84,6 @@ This project is presently deployed in **Netlify Service**
 
 [Live Project URL](https://ineuronai-alokverma.netlify.app/)
 
-<!-- LEARNT -->
 
 ## Author
 
@@ -132,10 +131,6 @@ Project Link: [link](https://github.com/alokVerma749/iNeuron-Home-Page)
 [git-shield]: https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white
 [github-shield]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
 
-<!-- Project screenshot -->
-
-[product-screenshot]: https://github.com/alokVerma749/ui-project_14/blob/master/14.png
-[project-url]: https://alokverma-uiproject-14.netlify.app/
 
 
 
