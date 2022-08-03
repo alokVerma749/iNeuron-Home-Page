@@ -5,19 +5,16 @@
 }
 
 .nav {
-  /* border: 2px solid red; */
   margin-top: 30px;
   text-align: center;
   width: 70%;
 }
 
 .nav__list {
-  /* border: 2px solid green; */
   display: flex;
   justify-content: space-around;
 }
 .nav__menu {
-  /* border: 2px solid red; */
   width: fit-content;
   height: 65px;
   line-height: 65px;

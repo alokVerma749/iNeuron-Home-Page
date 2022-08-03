@@ -1,5 +1,9 @@
 /* Tech avengers cards start here */
+.sec-03>h1 {
+  margin-bottom: 10vh;
+}
 .cards img {
+  border: 2px solid red;
   height: 410px;
   width: 300px;
 }
