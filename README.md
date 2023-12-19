@@ -45,11 +45,7 @@ This is a landing page for [iNeuron](https://ineuron.ai) website. This project i
 
 ## Screenshots
 
-![App Screenshot](https://github.com/alokVerma749/iNeuron-Home-Page/blob/master/thumbnails/01.png)
-![App Screenshot](https://github.com/alokVerma749/iNeuron-Home-Page/blob/master/thumbnails/02.png)
-![App Screenshot](https://github.com/alokVerma749/iNeuron-Home-Page/blob/master/thumbnails/03.png)
-![App Screenshot](https://github.com/alokVerma749/iNeuron-Home-Page/blob/master/thumbnails/04.png)
-
+![image](https://github.com/alokVerma749/iNeuron-Home-Page/assets/87599400/829ac72a-9195-463c-8854-61cd48b7081a)
 
 ## Features
 
